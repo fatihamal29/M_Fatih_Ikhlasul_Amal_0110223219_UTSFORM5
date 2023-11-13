@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UTS.css">
+    <title>UTS</title>
+</head>
+<body style="background-color: coral; color: coral;">
+    <div class="container" style="width: 800px; background-color: aliceblue; margin: auto; padding: 5px; position: relative; border-radius: 15px; ">
+
+    <br>
+
+    <h1 style="text-align: center; color:black;">Sistem Informasi Seminar Tugas Akhir - Sista</h1>
+    <div style="display: flex; justify-content: center; color: black;">
+    <p style="padding-left: 4px;"><a href="#">Home</a></h3>
+    <p style="padding-left: 4px;">></h3>
+    <p style="padding-left: 4px;"><a href="#">Jadwal</a></h3>
+    <p style="padding-left: 4px;">></h3>
+    <p style="padding-left: 4px;"><a href="#">Detail Jadwal</a></h3>
+    <p style="padding-left: 4px;">></h3>
+    <p style="padding-left: 4px;">Daftar Peserta</h3>
+</div>
+<br>
+<div style="margin-left: 80px; color: black;">
+    <p><b>Mahasiswa Seminar</b>: Diego Armando (0102002)</p>
+    <p><b>Judul</b>   : Rancang Bangun Aplikasi Seminar Tugas Akhir  Berbasis Web  Menggunakan MVC Framework</p>
+    <p><b>Waktu</b> : Senin, 4 Januari 2021, 10:00 </p>
+</div>
+
+<fieldset style="width: 400px; margin-left: 190px; color: black; line-height: 40px; border-radius: 10px; background-color: coral; box-shadow: 0px 0px 3px 5px rgba(rgb(43, 41, 41, 0.5));">
+    <legend>Form Peserta Seminar</legend>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>NIM :</td>
+                <td><input type="text" name="nim" placeholder="Enter NIM"></td>
+            </tr>
+            <tr>
+                <td>Nama :</td>
+                <td><input type="text" name="name" placeholder="Enter Name"></td>
+            </tr>
+            <tr>
+                <td>Prodi :</td>
+                <td>
+                    <select>
+                        <option value="Prodi">Sistem Informasi</option>
+                        <option value="Prodi">Teknik Informatika</option>
+                        <option value="Prodi">Bisnis Digital</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Program :</td>
+                <td>
+                    <input type="radio" name="jk" value="I">D3
+                    <input type="radio" name="jk" value="Pr">S1 Reguler
+                    <input type="radio" name="jk" value="IP">S1 Fast Trackit
+                    <input type="radio" name="jk" value="IP">S2
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="proses" value="Daftar" style="box-shadow: 4px 3px 2px black; color: white; background-color: blue; border-radius: 10px;"></td>
+            </tr>
+    </table>
+    </form>
+</fieldset>
+
+<br>
+<br>
+<br>
+<br>
+</div>
+    
+</body>
+</html>
